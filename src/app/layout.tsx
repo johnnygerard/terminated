@@ -1,6 +1,6 @@
 import { clsx } from "clsx";
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Geist, Geist_Mono, Orbitron } from "next/font/google";
 import type { FC, ReactNode } from "react";
 import "./globals.css";
 
@@ -8,6 +8,18 @@ const geistSans = Geist({
   display: "swap",
   subsets: ["latin"],
   variable: "--font-geist-sans",
+});
+
+const geistMono = Geist_Mono({
+  display: "swap",
+  subsets: ["latin"],
+  variable: "--font-geist-mono",
+});
+
+const orbitron = Orbitron({
+  display: "swap",
+  subsets: ["latin"],
+  variable: "--font-orbitron",
 });
 
 const APP_NAME = "Terminated";
@@ -38,7 +50,11 @@ type Props = {
 const RootLayout: FC<Props> = ({ children }) => {
   return (
     <html
-      className={geistSans.variable}
+      className={clsx(
+        geistSans.variable,
+        geistMono.variable,
+        orbitron.variable,
+      )}
       data-scroll-behavior="smooth"
       lang="en-US"
     >
