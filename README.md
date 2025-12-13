@@ -1,7 +1,6 @@
-# Next.js 16 Starter
+# Terminated
 
-This starter repository facilitates the creation of new Next.js projects using the configuration described below.  
-To learn how to use a GitHub template repository, check out [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+A static status page shown when servers are unavailable.
 
 ## Tech Stack
 
