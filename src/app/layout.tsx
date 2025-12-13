@@ -1,3 +1,4 @@
+import { clsx } from "clsx";
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import type { FC, ReactNode } from "react";
@@ -41,7 +42,13 @@ const RootLayout: FC<Props> = ({ children }) => {
       data-scroll-behavior="smooth"
       lang="en-US"
     >
-      <body className="font-sans">{children}</body>
+      <body
+        className={clsx(
+          "bg-black font-sans text-zinc-100 selection:bg-red-500/25",
+        )}
+      >
+        {children}
+      </body>
     </html>
   );
 };
