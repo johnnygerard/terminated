@@ -1,6 +1,27 @@
 @import "tailwindcss";
 
 @layer base {
+  html,
+  body {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-black text-zinc-100 antialiased;
+  }
+
+  ::selection {
+    @apply bg-red-500/25;
+  }
+
+  a {
+    @apply underline decoration-red-500/60 underline-offset-4;
+  }
+
+  a:hover {
+    @apply decoration-red-400;
+  }
+
   button:enabled,
   [role="button"]:enabled {
     cursor: pointer;

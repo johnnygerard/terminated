@@ -9,9 +9,10 @@ const geistSans = Geist({
   variable: "--font-geist-sans",
 });
 
-const APP_NAME = "appName";
-const TITLE = "title";
-const DESCRIPTION = "description";
+const APP_NAME = "Terminated";
+const TITLE = "Server Status: Terminated";
+const DESCRIPTION =
+  "Static status page indicating the server has been terminated.";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://placeholder.example"),
