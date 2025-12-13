@@ -15,7 +15,7 @@ const DESCRIPTION =
   "Static status page indicating the server has been terminated.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://placeholder.example"),
+  metadataBase: new URL("https://terminated.example"),
   title: {
     template: `%s | ${APP_NAME}`,
     default: TITLE,
