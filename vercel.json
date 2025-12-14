@@ -8,7 +8,7 @@
           "value": "noindex"
         }
       ],
-      "source": "/:path*"
+      "source": "/(.*)"
     }
   ]
 }
