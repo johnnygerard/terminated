@@ -2,6 +2,9 @@
 
 A static status page shown when servers are unavailable.
 
+![project status](https://img.shields.io/badge/project_status-completed-success?style=for-the-badge)
+[![live site](https://img.shields.io/badge/live_site-blue?style=for-the-badge)](https://terminated.vercel.app/)
+
 ## Tech Stack
 
 ### Frontend
